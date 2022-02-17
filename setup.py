@@ -5,21 +5,18 @@ URL = 'https://github.com/pyg-team/pytorch_geometric'
 
 install_requires = [
     'tqdm',
-    'yacs',
     'numpy',
     'scipy',
     'pandas',
     'jinja2',
     'requests',
     'pyparsing',
-    'hydra-core',
     'scikit-learn',
-    'class-resolver>=0.3.2',
-    'googledrivedownloader',
 ]
 
 full_install_requires = [
     'h5py',
+    'yacs',
     'numba',
     'captum',
     'rdflib',
@@ -27,8 +24,11 @@ full_install_requires = [
     'networkx',
     'tabulate',
     'matplotlib',
+    'hydra-core',
     'scikit-image',
     'pytorch-memlab',
+    'class-resolver>=0.3.2',
+    'googledrivedownloader',
 ]
 
 test_requires = [
